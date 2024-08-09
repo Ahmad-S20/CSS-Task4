@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 4000px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h2{
+    color: rgb(211, 211, 30);
+}
+
+.containor{
+    width: 80%;
+    margin: auto;
+    
+}
+.navbar .containor{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar{
+    background-color: gray;
+    height: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo{
+    width: 30%;
+}
+.navbar .list{
+    flex-grow: 1;
+}
+.navbar .list ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.header{
+    background-color: rgb(86, 81, 81);
+    height: 673px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:bisque;
+}
+
